@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="buttonEnviar" type="id">buttonEnviar</item>
+    <item name="button2" type="id" />
+    <item name="TextEditFeedback" type="id">a</item>
+</resources>
