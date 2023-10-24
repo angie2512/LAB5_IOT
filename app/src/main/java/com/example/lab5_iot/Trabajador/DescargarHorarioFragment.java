@@ -31,6 +31,7 @@ public class DescargarHorarioFragment extends Fragment {
             .addConverterFactory(GsonConverterFactory.create())
             .build()
             .create(ServiceTrabajador.class);
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -71,6 +72,8 @@ public class DescargarHorarioFragment extends Fragment {
 
                         }
                     });
+                } catch (Exception e){
+
                 }
             }
         });
